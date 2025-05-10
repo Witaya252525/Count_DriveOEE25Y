@@ -3,6 +3,13 @@ fruits = ['apple', 'banana', 'cherry', 'date', 'elderberry']
 fruits.append('fig')
 fruits.append('grape')  
 print(fruits)
+# replace arrey that contain "ch" with " witaya"
+fruits[2] = 'witaya'
+print(fruits)
+
+
+
+
 
 for fruit in fruits:
     # Check if the fruit is  start with char 'a' or 'A'
